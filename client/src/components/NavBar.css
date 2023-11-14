@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0; 
+}
+
+.navBar .theBradery {
+    font-family: 'Gloock', serif;
+    font-size: larger;
+    font-weight: 800;
+    text-decoration-line: underline;
+    text-decoration-color: #FF6347;
+}
+
+.navBar {
+    background-color: #FFE159;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding:1rem 2rem;
+    margin: 10px 15px;
+    border-radius: 50px;
+}
+
+.navBar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.navBar a {
+    color: #273746;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+}
+
+button {
+    all: unset;
+    padding: 9px 25px;
+    background-color:   	#FF6347;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #FF7F50;
+
+}
+
+.searchIcon{
+    vertical-align: sub;
+    margin-right: 3px;
+}
+
+.basketIcon {
+    vertical-align: sub;
+    margin-right: 3px;
+}

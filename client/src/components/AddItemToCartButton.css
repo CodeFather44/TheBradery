@@ -1,0 +1,14 @@
+.CartButton {
+    all: unset;
+    padding: 9px 25px;
+    background-color:#273746;
+    color: whitesmoke;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-family: 'Syne', sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 1rem 3rem;
+}

@@ -1,0 +1,57 @@
+.ProductName {
+    color: #273746;
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+}
+
+.ProductPrice {
+    color: #273746;
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    justify-content: center; 
+}
+
+.card {
+    margin: 5rem 1rem;
+    cursor: pointer;
+}
+
+.card img{
+    width: 300px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card img:hover {
+    border-color: #FF6347;
+    border: 50px;
+}
+
+#root {
+    padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto; 
+        justify-content: center; 
+    }
+    
+}
+
+@media screen and (max-width: 660px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: auto; 
+        justify-content: center; 
+    }
+    
+}
