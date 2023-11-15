@@ -5,6 +5,6 @@ Pour lancer l'application:
 1. npm install
 2. cd server
 3. npm run dev
-   dans un autre terminal:
+   <br/> dans un autre terminal:
 4. cd client
 5. npm run dev
