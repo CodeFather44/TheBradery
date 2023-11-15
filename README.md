@@ -3,4 +3,8 @@ la base de donnée se trouve dans le dossier : base_de_donnée se trouvant dans 
 
 Pour lancer l'application:
 1. npm install
-2. npm run dev
+2. cd server
+3. npm run dev
+   dans un autre terminal:
+4. cd client
+5. npm run dev
